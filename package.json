@@ -1,0 +1,21 @@
+{
+  "name": "natours-app",
+  "version": "1.0.0",
+  "description": "learning node, express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Bhavani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6",
+    "morgan": "^1.10.0",
+    "slugify": "^1.4.5",
+    "validator": "^13.1.17"
+  }
+}
